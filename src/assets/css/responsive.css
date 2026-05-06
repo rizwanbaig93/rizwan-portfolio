@@ -1,0 +1,813 @@
+/*
+Theme Name:  
+Theme url:
+Author:
+Author url:
+Version:1.0.0
+Tag:
+Description:
+
+================+/+/+/+/+/+/+/+/+/=================
+                    heigh
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (min-width: 1400px) {
+    .single-welcome-area {
+        height: 1000px;
+    }
+
+    .wlc-title h1 {
+        font-size: 80px;
+        line-height: 90px
+    }
+
+}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    heigh
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (max-width: 1400px) {}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    medium
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                     tab
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+
+/*tablet layout:768px*/
+@media only screen and(min-width:768px) and (max-width:991px) {}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    Mobile
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (max-width: 767px) {
+    .wlc-title h1 {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 1px;
+    }
+
+    .banner-social-wrap {
+        text-align: center;
+        margin-top: 7px;
+        border-top: 1px solid #657A84;
+        padding-top: 7px;
+    }
+
+    div#facts .row>div {
+        margin: 20px;
+    }
+
+    .author-1 {
+        display: none;
+    }
+
+    .single-welcome-area {
+        text-align: center;
+        height: 450px;
+        padding: 120px 0;
+    }
+
+    .blog-page-social {
+        text-align: justify;
+    }
+
+    .single-welcome-area.home_1 {
+
+        margin-top: 120px;
+    }
+
+    .header-area {
+        padding: 10px 0;
+    }
+
+    .single-blog-img {
+        height: 220px !important;
+    }
+
+    .heading h2,
+    .primery-heading h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .owl-nav {
+        position: absolute !important;
+        top: auto !important;
+        right: 0 !important;
+        bottom: -20% !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .da-thumbs li {
+        float: unset;
+    }
+
+    .testimonial-text h4 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .testimonial-text h4 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .testimonial-img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        left: 0;
+        top: 50%;
+        margin-top: 0;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+
+    .testimonial {
+        position: relative;
+        z-index: 2;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .project-area.section-padding,
+    .pricing-area.section-padding {
+        padding-bottom: 0
+    }
+
+    .cta-form input {
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+
+    a.subscribe-btn {
+        width: 78%;
+        float: none;
+    }
+
+    .heading.cta-heading h2 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+
+    /* Slider fix */
+  .banner-slider {
+    height: 55vh !important;
+  }
+
+  .content-card {
+    width: 80% !important;
+    height: auto !important;
+    padding: 12px !important;
+    top: auto !important;
+  }
+
+  .content-card h2 {
+    font-size: 1rem !important;
+    line-height: 1.3 !important;
+  }
+
+  /* Heading fix - MY EXPERIENCE overlap */
+  .heading {
+    padding-top: 2rem;
+  }
+
+  .heading small {
+    position: relative !important;
+    top: 0 !important;
+    display: block !important;
+    margin-bottom: 5px !important;
+  }
+
+  .heading strong.filltext {
+    display: none !important;
+  }
+
+ 
+
+
+    .blog-area .owl-nav {
+        bottom: -5% !important
+    }
+
+    .blog-readmore-social div>div:last-child {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .blog-banner h3 {
+        font-size: 20px;
+        color: #fff;
+        line-height: 34px;
+    }
+
+    .blog-banner {
+        padding: 20px
+    }
+
+    .banner {
+        margin: 0;
+    }
+
+    .cta-form a.subscribe-btn {
+        width: 75%;
+        float: left;
+    }
+
+    .single-quote {
+        padding: 20px;
+    }
+
+    .skill-area .skill {
+        margin-bottom: 30px;
+    }
+
+    .skill-area .skill:last-child {
+        margin-bottom: 0;
+    }
+
+    .welcome-carousel .owl-dots {
+        bottom: 40%;
+    }
+
+    .projects-carousel-wrapper {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 15px;
+  padding-bottom: 15px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.projects-carousel-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-item-project {
+  flex: 0 0 100% !important;
+  scroll-snap-align: start;
+  min-width: unset !important;
+}
+
+.carousel-item-project .card {
+  height: 50vh !important;
+  border-radius: 10px;
+}
+
+/* .content-cards {
+    position: absolute;
+    top: 15rem;
+    transition: 0.4s;
+    right: 5rem !important;
+    text-align: center;
+    color: #ffcd17;
+    font-weight: 800px !important;
+} */
+
+.content-cards .title{
+   font-size: 35px !important;
+    font-weight: bolder !important;
+}
+
+  .projects-carousel-wrapper {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;  /* ← yeh add karo */
+    scroll-snap-type: x mandatory;
+    gap: 15px;
+    padding-bottom: 15px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  
+}
+
+.card:hover .content-cards {
+    color: var(--yellow);
+    font-size: 24px;
+    letter-spacing: 1px;
+    right: 5rem !important;
+    top: 15rem !important;
+    font-weight: 800 !important;
+}
+
+
+}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    wid device
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 480px;
+    }
+
+
+}
+
+/* // TO Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1399.98px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 1199.98px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 991.98px) {}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-nav {
+        display: contents !important;
+    }
+
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0 !important;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .skill_margin_top {
+  margin-top: 0px !important;
+}
+
+
+  /* Heading overlap fix */
+  .heading small {
+    position: relative !important;
+    top: 0 !important;
+    font-size: 13px !important;
+  }
+
+  .heading strong.filltext {
+    display: none !important;
+  }
+
+  /* Skill box mobile */
+  .skill-box {
+    height: 380px !important;
+    margin: 5px 0 !important;
+    padding: 15px;
+  }
+
+  .skill_margin_top {
+    margin-top: 0px !important;
+  }
+
+    .header-area.sticky {
+        top: 0;
+        padding: 0;
+        border: none;
+        background: #0e302ce3 !important;
+        height: 75px;
+    }
+
+    
+
+    .content-card {
+        top: 11rem !important;
+        /* height: 20rem;
+        width: 18rem; */
+  /* top: auto !important; */
+  /* bottom: 5rem !important; */
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 80% !important; 
+  height: auto !important;
+   padding: 15px 15px !important; 
+}
+
+.content-card h2 {
+  font-size: 0.9rem !important;
+  line-height: 1.3 !important;
+}
+
+    .content {
+        left: 1rem;
+
+        & .title {
+            font-size: 1.2rem;
+        }
+    }
+
+    .go-top {
+        display: none !important;
+    }
+
+    main {
+        overflow-x: clip;
+    }
+
+    .item:nth-child(4) {
+        left: calc(60% + 140px) !important;
+    }
+
+    .item {
+        width: 100px;
+        height: 100px;
+    }
+
+    .item:nth-child(3) {
+        top: 22rem;
+        left: 67% !important;
+    }
+
+    .banner-slider {
+        height: 55vh !important;
+    }
+
+    .social-site {
+        display: none;
+    }
+
+    .container-nav {
+        width: 50% !important;
+        margin: 0 auto;
+        display: inline;
+    }
+
+    .footer-menu li a {
+        margin: 0 10px;
+    }
+
+    .anular_image {
+    width: 65px !important;
+    }
+
+    .javascript_image
+
+ {
+    width: 80px !important;
+}
+
+    .logo img {
+        height: 40px;
+    }
+
+    .navbar-toggler {
+        float: right;
+    }
+
+    .container-nav {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .nav-item a {
+        font-size: 8.2px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .heading h2 {
+        font-weight: 600;
+        letter-spacing: 0.6px;
+        font-size: 17px;
+        /* padding-top: 0.7rem; */
+        line-height: 25px;
+    }
+
+    .p-2
+    {
+         padding: 5px 0 !important;
+     }
+
+     .mobile_padding {
+        padding: 0px !important;
+     }
+
+         .heading {
+        padding-top: 1.5rem;
+    }
+
+    .navbar-expand-lg {
+        width: 100%;
+        margin: 3px 0px;
+    }
+
+    p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+    .space-40 {
+        height: 10px;
+}
+
+    .heading p {
+        font-size: 13px;
+        margin: 5px 0 12px 0;
+    }
+
+    .section-padding {
+        padding: 0px 0;
+        background-color: var(--darkblue);
+    }
+
+    a.cbtn {
+        margin-bottom: 0.8rem;
+        margin-left: 3.5rem;
+        padding: 10px 10px;
+        text-decoration: none;
+    }
+
+    .info-content {
+        padding-left: 15px;
+    }
+
+    .info-content p {
+        font-size: 13px;
+    }
+
+    .heading small {
+        position: absolute;
+        font-size: 16px;
+        top: 3rem;
+        margin: 0px !important;
+    }
+
+    .heading strong.filltext {
+        font-size: 40px;
+        position: relative;
+        left: 0;
+        top: 1rem !important;
+    }
+
+
+    .filltext-aboutus {
+        top: 0.8rem !important;
+        font-size: 40px;
+        position: relative;
+        left: 0;
+    }
+
+    .reverse-row {
+        flex-direction: column-reverse;
+    }
+
+    .aboutus-h2 h2 {
+        padding-top: 0.2rem !important;
+    }
+
+    .skill-box {
+        margin: 0.3rem 0;
+        height: 410px;
+    }
+
+
+    .circle {
+        width: 70px;
+    }
+
+    .circle {
+       margin: 6px 6px 30px;
+    }
+
+    .circle span {
+        font-size: 11px;
+        letter-spacing: 0px;
+    }
+
+    .circle img {
+        max-width: 75%;
+        height: auto;
+    }
+
+    .space-60 {
+        height: 20px;
+    }
+
+    .space-100 {
+        height: 20px;
+    }
+
+    .service-text p {
+        font-size: 14px;
+        line-height: 1.3;
+        text-transform: lowercase;
+    }
+
+    .single-service {
+        padding: 15px 15px;
+        margin: 0.3rem 0;
+    }
+
+    .service-card {
+        height: 220px;
+    }
+
+    .service-area .service-text {
+        margin: 12px 0 0px 0px;
+    }
+
+    .service-text h3 {
+        font-size: 24px;
+    }
+
+    .service-text h5 {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .u-list ul li i {
+        margin-top: -17px;
+    }
+
+    .u-list ul li {
+        margin-right: 37px;
+        font-size: 15px;
+        padding: 2px 0px;
+    }
+
+    .service-package {
+        height: 340px !important;
+    }
+
+    /* .owl-item {
+        height: 100%;
+    } */
+    .owl-item {
+        height: 65vh;
+    }
+
+    /* .card {
+        height: 67vh !important;
+        border: none;
+    } */
+    .card {
+        height: 64vh !important;
+        border: none;
+    }
+
+    /* .owl-dots {
+        color: white !important;
+        position: absolute;
+        left: 4.5rem;
+        top: 25.2rem;
+        z-index: 99999;
+    }
+
+    .owl-dots button {
+        height: 8px;
+        margin: 8px;
+        border: none;
+        width: 15px;
+        border-radius: 20px;
+        background-color: #ffffff;
+    } */
+
+    /* .card:hover .content-cards {
+        font-size: 20px;
+        font-weight: 700;
+    } */
+
+    .footer-menu ul {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .footer-menu li a {
+        color: #fff;
+        font-size: 11px;
+        text-transform: capitalize;
+        padding: 0 1px;
+        text-decoration: none;
+    }
+
+    .copy-right {
+        font-size: 8px;
+        color: white;
+    }
+
+    .copy-right a {
+        margin: 0 2px;
+    }
+
+    .svg-marginleft svg {
+        margin: 0 !important;
+    }
+
+    .main-bg .social-icon {
+        margin: 7px 0;
+    }
+
+    .main-bg .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons button {
+        font-size: 1rem;
+        padding: 5px 20px;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5px;
+    }
+
+    .icon-detail a {
+        font-size: 12px !important;
+        margin: 0 2px;
+    }
+
+    /* .main-bg .social-icon .icon-detail a{
+        line-height: 1.2;
+        font-size: 12px;
+    } */
+    .custom-fontsize {
+        font-size: 13px !important;
+    }
+
+    .custom-fontsize a {
+        font-size: 13px !important;
+    }
+
+    .social-icon svg {
+        width: 20px;
+    }
+
+    .main-bg .contact-forms input,
+    .main-bg .contact-forms textarea {
+        padding: 10px 3px;
+        margin: 5px 0;
+    }
+
+    .main-bg {
+        padding-bottom: 25px;
+    }
+
+    .space-40 {
+        height: 30px;
+    }
+
+    .service-icon {
+        width: 50px;
+    }
+
+    .skill-box h5 {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #ffcd17;
+        margin: 0px 0;
+    }
+
+    .skill-box p {
+        margin-bottom: 0;
+        font-size: 14px;
+        text-transform: lowercase;
+        color: #fff;
+        font-weight: 400;
+        line-height: 1.4rem;
+    }
+
+    .service-text h4 {
+        font-size: 24px;
+        text-transform: uppercase;
+        color: var(--green);
+        margin-bottom: 5px;
+    }
+}
+
+/*=========================================================================
+                                The end
+==========================================================================*/
